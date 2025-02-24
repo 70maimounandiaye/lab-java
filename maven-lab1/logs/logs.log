@@ -1,0 +1,190 @@
+2025-02-16T14:29:27.781Z  INFO 4952 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : Starting StartApplication using Java 17.0.12 with PID 4952 (C:\Users\Kaba\Documents\maven-lab1\start\target\classes started by Kaba in C:\Users\Kaba\Documents\maven-lab1)
+2025-02-16T14:29:27.787Z  INFO 4952 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-16T14:29:29.319Z  INFO 4952 --- [maven-lab] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-16T14:29:29.386Z  INFO 4952 --- [maven-lab] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 3 JPA repository interfaces.
+2025-02-16T14:29:30.923Z  INFO 4952 --- [maven-lab] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-16T14:29:30.939Z  INFO 4952 --- [maven-lab] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-16T14:29:30.940Z  INFO 4952 --- [maven-lab] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-16T14:29:31.008Z  INFO 4952 --- [maven-lab] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-16T14:29:31.009Z  INFO 4952 --- [maven-lab] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3107 ms
+2025-02-16T14:29:31.225Z DEBUG 4952 --- [maven-lab] [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-02-16T14:29:31.330Z  INFO 4952 --- [maven-lab] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-16T14:29:31.554Z  INFO 4952 --- [maven-lab] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:maven-lab user=USER
+2025-02-16T14:29:31.556Z  INFO 4952 --- [maven-lab] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-16T14:29:31.633Z  INFO 4952 --- [maven-lab] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-16T14:29:31.720Z  INFO 4952 --- [maven-lab] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-16T14:29:31.764Z  INFO 4952 --- [maven-lab] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-16T14:29:32.142Z  INFO 4952 --- [maven-lab] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-16T14:29:32.220Z  WARN 4952 --- [maven-lab] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-16T14:29:32.254Z  INFO 4952 --- [maven-lab] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-16T14:29:33.613Z  INFO 4952 --- [maven-lab] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-16T14:29:33.684Z  INFO 4952 --- [maven-lab] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-16T14:29:34.302Z  WARN 4952 --- [maven-lab] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-16T14:29:34.454Z DEBUG 4952 --- [maven-lab] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2025-02-16T14:29:34.602Z DEBUG 4952 --- [maven-lab] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-16T14:29:34.654Z DEBUG 4952 --- [maven-lab] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-16T14:29:34.720Z  WARN 4952 --- [maven-lab] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-16T14:29:34.765Z DEBUG 4952 --- [maven-lab] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-16T14:29:35.219Z  INFO 4952 --- [maven-lab] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:maven-lab'
+2025-02-16T14:29:35.273Z  INFO 4952 --- [maven-lab] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-16T14:29:35.375Z  INFO 4952 --- [maven-lab] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-16T14:29:35.393Z  INFO 4952 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : Started StartApplication in 8.474 seconds (process running for 9.386)
+2025-02-16T14:29:35.627Z  INFO 4952 --- [maven-lab] [RMI TCP Connection(3)-192.168.1.3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-16T14:29:35.628Z  INFO 4952 --- [maven-lab] [RMI TCP Connection(3)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-16T14:29:35.628Z DEBUG 4952 --- [maven-lab] [RMI TCP Connection(3)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-02-16T14:29:35.629Z DEBUG 4952 --- [maven-lab] [RMI TCP Connection(3)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-02-16T14:29:35.629Z DEBUG 4952 --- [maven-lab] [RMI TCP Connection(3)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-02-16T14:29:35.631Z DEBUG 4952 --- [maven-lab] [RMI TCP Connection(3)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@67c2ff5d
+2025-02-16T14:29:35.633Z DEBUG 4952 --- [maven-lab] [RMI TCP Connection(3)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@b257072
+2025-02-16T14:29:35.634Z DEBUG 4952 --- [maven-lab] [RMI TCP Connection(3)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-02-16T14:29:35.634Z  INFO 4952 --- [maven-lab] [RMI TCP Connection(3)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2025-02-16T14:29:52.332Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/roles", parameters={}
+2025-02-16T14:29:52.338Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.AppRolesController#createAppRoles(AppRoles)
+2025-02-16T14:29:52.392Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.isi.maven.services.dto.AppRoles@3f5b8b97]
+2025-02-16T14:29:52.563Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-16T14:29:52.563Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.isi.maven.services.dto.AppRoles@2a7acc29]
+2025-02-16T14:29:52.575Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2025-02-16T14:30:39.247Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/roles", parameters={}
+2025-02-16T14:30:39.248Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.AppRolesController#createAppRoles(AppRoles)
+2025-02-16T14:30:39.249Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.isi.maven.services.dto.AppRoles@301a1254]
+2025-02-16T14:30:39.252Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-16T14:30:39.253Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.isi.maven.services.dto.AppRoles@43a1d422]
+2025-02-16T14:30:39.253Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2025-02-16T14:30:55.280Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/roles", parameters={}
+2025-02-16T14:30:55.280Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.AppRolesController#createAppRoles(AppRoles)
+2025-02-16T14:30:55.281Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.isi.maven.services.dto.AppRoles@283a610]
+2025-02-16T14:30:55.284Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-16T14:30:55.284Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.isi.maven.services.dto.AppRoles@efcf48c]
+2025-02-16T14:30:55.285Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2025-02-16T14:31:03.261Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/roles", parameters={}
+2025-02-16T14:31:03.261Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.AppRolesController#createAppRoles(AppRoles)
+2025-02-16T14:31:03.262Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.isi.maven.services.dto.AppRoles@58e1e0b3]
+2025-02-16T14:31:03.265Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-16T14:31:03.266Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.isi.maven.services.dto.AppRoles@1c017bf7]
+2025-02-16T14:31:03.267Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2025-02-16T14:31:12.502Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/roles", parameters={}
+2025-02-16T14:31:12.503Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.AppRolesController#getAppRoles()
+2025-02-16T14:31:12.671Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-16T14:31:12.672Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.isi.maven.services.dto.AppRoles@75972e3e, com.isi.maven.services.dto.AppRoles@681b90c5, com.isi (truncated)...]
+2025-02-16T14:31:12.674Z DEBUG 4952 --- [maven-lab] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-16T14:47:12.706Z  INFO 4952 --- [maven-lab] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-16T14:47:13.447Z  INFO 4952 --- [maven-lab] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-16T14:47:13.451Z  INFO 4952 --- [maven-lab] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-16T14:47:13.459Z  INFO 4952 --- [maven-lab] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-16T14:47:13.461Z  INFO 4952 --- [maven-lab] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-16T14:47:21.522Z  INFO 12608 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : Starting StartApplication using Java 17.0.12 with PID 12608 (C:\Users\Kaba\Documents\maven-lab1\start\target\classes started by Kaba in C:\Users\Kaba\Documents\maven-lab1)
+2025-02-16T14:47:21.528Z  INFO 12608 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-16T14:47:23.011Z  INFO 12608 --- [maven-lab] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-16T14:47:23.102Z  INFO 12608 --- [maven-lab] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 3 JPA repository interfaces.
+2025-02-16T14:47:24.739Z  INFO 12608 --- [maven-lab] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-16T14:47:24.755Z  INFO 12608 --- [maven-lab] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-16T14:47:24.756Z  INFO 12608 --- [maven-lab] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-16T14:47:24.849Z  INFO 12608 --- [maven-lab] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-16T14:47:24.849Z  INFO 12608 --- [maven-lab] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3166 ms
+2025-02-16T14:47:25.123Z DEBUG 12608 --- [maven-lab] [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-02-16T14:47:25.240Z  INFO 12608 --- [maven-lab] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-16T14:47:25.490Z  INFO 12608 --- [maven-lab] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:maven-lab user=USER
+2025-02-16T14:47:25.493Z  INFO 12608 --- [maven-lab] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-16T14:47:25.560Z  INFO 12608 --- [maven-lab] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-16T14:47:25.648Z  INFO 12608 --- [maven-lab] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-16T14:47:25.707Z  INFO 12608 --- [maven-lab] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-16T14:47:26.150Z  INFO 12608 --- [maven-lab] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-16T14:47:26.220Z  WARN 12608 --- [maven-lab] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-16T14:47:26.244Z  INFO 12608 --- [maven-lab] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-16T14:47:27.448Z  INFO 12608 --- [maven-lab] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-16T14:47:27.509Z  INFO 12608 --- [maven-lab] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-16T14:47:28.069Z  WARN 12608 --- [maven-lab] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-16T14:47:28.204Z DEBUG 12608 --- [maven-lab] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2025-02-16T14:47:28.345Z DEBUG 12608 --- [maven-lab] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-16T14:47:28.397Z DEBUG 12608 --- [maven-lab] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-16T14:47:28.460Z  WARN 12608 --- [maven-lab] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-16T14:47:28.509Z DEBUG 12608 --- [maven-lab] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-16T14:47:28.959Z  INFO 12608 --- [maven-lab] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:maven-lab'
+2025-02-16T14:47:29.004Z  INFO 12608 --- [maven-lab] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-16T14:47:29.102Z  INFO 12608 --- [maven-lab] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-16T14:47:29.120Z  INFO 12608 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : Started StartApplication in 8.833 seconds (process running for 10.018)
+2025-02-16T14:47:29.372Z  INFO 12608 --- [maven-lab] [RMI TCP Connection(2)-192.168.1.3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-16T14:47:29.372Z  INFO 12608 --- [maven-lab] [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-16T14:47:29.373Z DEBUG 12608 --- [maven-lab] [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-02-16T14:47:29.373Z DEBUG 12608 --- [maven-lab] [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-02-16T14:47:29.373Z DEBUG 12608 --- [maven-lab] [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-02-16T14:47:29.376Z DEBUG 12608 --- [maven-lab] [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1d8230cd
+2025-02-16T14:47:29.377Z DEBUG 12608 --- [maven-lab] [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7789719e
+2025-02-16T14:47:29.377Z DEBUG 12608 --- [maven-lab] [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-02-16T14:47:29.378Z  INFO 12608 --- [maven-lab] [RMI TCP Connection(2)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2025-02-16T14:47:36.146Z DEBUG 12608 --- [maven-lab] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/roles", parameters={}
+2025-02-16T14:47:36.154Z DEBUG 12608 --- [maven-lab] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.AppRolesController#getAppRoles()
+2025-02-16T14:47:36.339Z DEBUG 12608 --- [maven-lab] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-16T14:47:36.341Z DEBUG 12608 --- [maven-lab] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [[]]
+2025-02-16T14:47:36.355Z DEBUG 12608 --- [maven-lab] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-16T14:47:52.171Z DEBUG 12608 --- [maven-lab] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/commande", parameters={}
+2025-02-16T14:47:52.172Z DEBUG 12608 --- [maven-lab] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.maven.web.CommandeController#commandeController()
+2025-02-16T14:47:52.173Z DEBUG 12608 --- [maven-lab] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-02-16T14:47:52.174Z DEBUG 12608 --- [maven-lab] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Commande de vehicules "]
+2025-02-16T14:47:52.175Z DEBUG 12608 --- [maven-lab] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-16T14:55:28.456Z  INFO 12608 --- [maven-lab] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-16T14:55:29.517Z  INFO 12608 --- [maven-lab] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-16T14:55:29.525Z  INFO 12608 --- [maven-lab] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-16T14:55:29.534Z  INFO 12608 --- [maven-lab] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-16T14:55:29.536Z  INFO 12608 --- [maven-lab] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-16T16:37:24.833Z  INFO 6564 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : Starting StartApplication using Java 17.0.12 with PID 6564 (C:\Users\Kaba\Documents\maven-lab1\start\target\classes started by Kaba in C:\Users\Kaba\Documents\maven-lab1)
+2025-02-16T16:37:24.838Z  INFO 6564 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-16T16:37:26.448Z  INFO 6564 --- [maven-lab] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-16T16:37:26.532Z  INFO 6564 --- [maven-lab] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 3 JPA repository interfaces.
+2025-02-16T16:37:28.491Z  INFO 6564 --- [maven-lab] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-16T16:37:28.511Z  INFO 6564 --- [maven-lab] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-16T16:37:28.511Z  INFO 6564 --- [maven-lab] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-16T16:37:28.598Z  INFO 6564 --- [maven-lab] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-16T16:37:28.598Z  INFO 6564 --- [maven-lab] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3670 ms
+2025-02-16T16:37:28.847Z DEBUG 6564 --- [maven-lab] [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-02-16T16:37:29.000Z  INFO 6564 --- [maven-lab] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-16T16:37:29.353Z  INFO 6564 --- [maven-lab] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:maven-lab user=USER
+2025-02-16T16:37:29.357Z  INFO 6564 --- [maven-lab] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-16T16:37:29.440Z  INFO 6564 --- [maven-lab] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-16T16:37:29.594Z  INFO 6564 --- [maven-lab] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-16T16:37:29.661Z  INFO 6564 --- [maven-lab] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-16T16:37:30.260Z  INFO 6564 --- [maven-lab] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-16T16:37:30.380Z  WARN 6564 --- [maven-lab] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-16T16:37:30.419Z  INFO 6564 --- [maven-lab] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-16T16:37:32.050Z  INFO 6564 --- [maven-lab] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-16T16:37:32.132Z  INFO 6564 --- [maven-lab] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-16T16:37:32.825Z  WARN 6564 --- [maven-lab] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-16T16:37:32.982Z DEBUG 6564 --- [maven-lab] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2025-02-16T16:37:33.140Z DEBUG 6564 --- [maven-lab] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-16T16:37:33.207Z DEBUG 6564 --- [maven-lab] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-16T16:37:33.335Z  WARN 6564 --- [maven-lab] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-16T16:37:33.393Z DEBUG 6564 --- [maven-lab] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-16T16:37:33.855Z  INFO 6564 --- [maven-lab] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:maven-lab'
+2025-02-16T16:37:33.910Z  INFO 6564 --- [maven-lab] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-16T16:37:34.011Z  INFO 6564 --- [maven-lab] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-16T16:37:34.029Z  INFO 6564 --- [maven-lab] [main] com.isi.maven.start.StartApplication     : Started StartApplication in 10.141 seconds (process running for 11.223)
+2025-02-16T16:37:34.429Z  INFO 6564 --- [maven-lab] [RMI TCP Connection(1)-192.168.1.3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-16T16:37:34.429Z  INFO 6564 --- [maven-lab] [RMI TCP Connection(1)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-16T16:37:34.429Z DEBUG 6564 --- [maven-lab] [RMI TCP Connection(1)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-02-16T16:37:34.430Z DEBUG 6564 --- [maven-lab] [RMI TCP Connection(1)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-02-16T16:37:34.430Z DEBUG 6564 --- [maven-lab] [RMI TCP Connection(1)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-02-16T16:37:34.433Z DEBUG 6564 --- [maven-lab] [RMI TCP Connection(1)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3b5f72fa
+2025-02-16T16:37:34.434Z DEBUG 6564 --- [maven-lab] [RMI TCP Connection(1)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1d8230cd
+2025-02-16T16:37:34.435Z DEBUG 6564 --- [maven-lab] [RMI TCP Connection(1)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-02-16T16:37:34.435Z  INFO 6564 --- [maven-lab] [RMI TCP Connection(1)-192.168.1.3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
